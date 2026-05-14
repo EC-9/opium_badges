@@ -48,5 +48,8 @@
     "5wag",
     "UAV",
     "\u3115"
-  ]
+  ],
+  "version": "0.1.1",
+  "installer": "https://github.com/luiscntr/opium/releases/download/v0.1.1/opium-setup-x86_64.msi",
+  "changelog": "1.- Enemy on point counter fixed:\n(can be disabled on client settings). Thanks to glorp\n\n2.- Low ammo:\nIntegrated a visual low-ammo indicator that dynamically tracks the weapon's magazine state. When the remaining ammo drops below a customizable threshold (25% by default), the HUD ammunition text automatically turns red to prompt a reload. (can be disabled on client settings). Shoutout lombre.\n\n3.- Clan Score Chart:\nIntroduced a new analytics module that automatically generates a beautiful, interactive bar chart inside the in-game Clan menu (can be disabled on client settings). Shoutout lombre too.\n\n4.- Client verified clans now cant be disabled on client settings\n\n5.- Menu Timer Fix:\nThe timer was appearing on the screen while playing the game or when opening other in-game menus, now it only shows in the main menu.\n\n6.- CSS:\nWe completely scrapped the old static UI cleaner and built a brand-new, remote Custom CSS Selector directly into the client settings!\n\n7.- Settings:\nImplemented a new profile manager in the client settings. Users can now save their entire current Krunker game configuration (FOV, sensitivity, keybinds, etc.) as a custom profile. Selecting a profile automatically injects the saved settings into the game and reloads the client.\n\nGame settings profiles are saved to Documents/opium/profiles.json, allowing for easy backups and manual sharing between users.\n\n8.- External queue:\nUpdated the external matchmaking queue with a custom audio alert. When it finds a match, it plays the intro of the song \"FE!N\""
 }
